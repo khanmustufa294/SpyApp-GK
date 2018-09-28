@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02060011214A11D400660FBF /* AlphanumericCesarCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02060010214A11D400660FBF /* AlphanumericCesarCipher.swift */; };
+		02060013214B177600660FBF /* ROT786.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02060012214B177600660FBF /* ROT786.swift */; };
+		02060015214B1CE500660FBF /* PAKCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02060014214B1CE500660FBF /* PAKCipher.swift */; };
+		02A76DDE215303560070AEB4 /* CesarCipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A76DDD215303560070AEB4 /* CesarCipherTests.swift */; };
+		02A76DE0215308AA0070AEB4 /* AlphaNumericTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A76DDF215308AA0070AEB4 /* AlphaNumericTest.swift */; };
+		02A76DE221531A7F0070AEB4 /* ROT786Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A76DE121531A7F0070AEB4 /* ROT786Test.swift */; };
+		02C8A0C921543C5A00A05D7D /* PAKCipherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C8A0C821543C5A00A05D7D /* PAKCipherTest.swift */; };
+		970E4DD52138EC8600BA3EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DD42138EC8600BA3EE9 /* AppDelegate.swift */; };
+		970E4DD72138EC8600BA3EE9 /* SpyAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DD62138EC8600BA3EE9 /* SpyAppViewController.swift */; };
+		970E4DDA2138EC8600BA3EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970E4DD82138EC8600BA3EE9 /* Main.storyboard */; };
+		970E4DDC2138EC8700BA3EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970E4DDB2138EC8700BA3EE9 /* Assets.xcassets */; };
+		970E4DDF2138EC8700BA3EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970E4DDD2138EC8700BA3EE9 /* LaunchScreen.storyboard */; };
+		970E4DEA2138EC8700BA3EE9 /* SpyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DE92138EC8700BA3EE9 /* SpyAppTests.swift */; };
+		970E4DF52138FC0B00BA3EE9 /* CeaserCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DF42138FC0B00BA3EE9 /* CeaserCipher.swift */; };
+		970E4DF721392D4800BA3EE9 /* CipherFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DF621392D4800BA3EE9 /* CipherFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		970E4DE62138EC8700BA3EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 970E4DC92138EC8600BA3EE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 970E4DD02138EC8600BA3EE9;
+			remoteInfo = SpyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02060010214A11D400660FBF /* AlphanumericCesarCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphanumericCesarCipher.swift; sourceTree = "<group>"; };
+		02060012214B177600660FBF /* ROT786.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT786.swift; sourceTree = "<group>"; };
+		02060014214B1CE500660FBF /* PAKCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAKCipher.swift; sourceTree = "<group>"; };
+		02A76DDD215303560070AEB4 /* CesarCipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCipherTests.swift; sourceTree = "<group>"; };
+		02A76DDF215308AA0070AEB4 /* AlphaNumericTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaNumericTest.swift; sourceTree = "<group>"; };
+		02A76DE121531A7F0070AEB4 /* ROT786Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT786Test.swift; sourceTree = "<group>"; };
+		02C8A0C821543C5A00A05D7D /* PAKCipherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAKCipherTest.swift; sourceTree = "<group>"; };
+		970E4DD12138EC8600BA3EE9 /* SpyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		970E4DD42138EC8600BA3EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		970E4DD62138EC8600BA3EE9 /* SpyAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyAppViewController.swift; sourceTree = "<group>"; };
+		970E4DD92138EC8600BA3EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		970E4DDB2138EC8700BA3EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		970E4DDE2138EC8700BA3EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		970E4DE02138EC8700BA3EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970E4DE52138EC8700BA3EE9 /* SpyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		970E4DE92138EC8700BA3EE9 /* SpyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyAppTests.swift; sourceTree = "<group>"; };
+		970E4DEB2138EC8700BA3EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970E4DF42138FC0B00BA3EE9 /* CeaserCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeaserCipher.swift; sourceTree = "<group>"; };
+		970E4DF621392D4800BA3EE9 /* CipherFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		970E4DCE2138EC8600BA3EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970E4DE22138EC8700BA3EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		970E4DC82138EC8600BA3EE9 = {
+			isa = PBXGroup;
+			children = (
+				970E4DD32138EC8600BA3EE9 /* SpyApp */,
+				970E4DE82138EC8700BA3EE9 /* SpyAppTests */,
+				970E4DD22138EC8600BA3EE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		970E4DD22138EC8600BA3EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				970E4DD12138EC8600BA3EE9 /* SpyApp.app */,
+				970E4DE52138EC8700BA3EE9 /* SpyAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		970E4DD32138EC8600BA3EE9 /* SpyApp */ = {
+			isa = PBXGroup;
+			children = (
+				970E4DD42138EC8600BA3EE9 /* AppDelegate.swift */,
+				970E4DD62138EC8600BA3EE9 /* SpyAppViewController.swift */,
+				970E4DF42138FC0B00BA3EE9 /* CeaserCipher.swift */,
+				970E4DF621392D4800BA3EE9 /* CipherFactory.swift */,
+				970E4DD82138EC8600BA3EE9 /* Main.storyboard */,
+				970E4DDB2138EC8700BA3EE9 /* Assets.xcassets */,
+				970E4DDD2138EC8700BA3EE9 /* LaunchScreen.storyboard */,
+				970E4DE02138EC8700BA3EE9 /* Info.plist */,
+				02060010214A11D400660FBF /* AlphanumericCesarCipher.swift */,
+				02060012214B177600660FBF /* ROT786.swift */,
+				02060014214B1CE500660FBF /* PAKCipher.swift */,
+			);
+			path = SpyApp;
+			sourceTree = "<group>";
+		};
+		970E4DE82138EC8700BA3EE9 /* SpyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				970E4DE92138EC8700BA3EE9 /* SpyAppTests.swift */,
+				970E4DEB2138EC8700BA3EE9 /* Info.plist */,
+				02A76DDD215303560070AEB4 /* CesarCipherTests.swift */,
+				02A76DDF215308AA0070AEB4 /* AlphaNumericTest.swift */,
+				02A76DE121531A7F0070AEB4 /* ROT786Test.swift */,
+				02C8A0C821543C5A00A05D7D /* PAKCipherTest.swift */,
+			);
+			path = SpyAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		970E4DD02138EC8600BA3EE9 /* SpyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 970E4DEE2138EC8700BA3EE9 /* Build configuration list for PBXNativeTarget "SpyApp" */;
+			buildPhases = (
+				970E4DCD2138EC8600BA3EE9 /* Sources */,
+				970E4DCE2138EC8600BA3EE9 /* Frameworks */,
+				970E4DCF2138EC8600BA3EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpyApp;
+			productName = SpyApp;
+			productReference = 970E4DD12138EC8600BA3EE9 /* SpyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		970E4DE42138EC8700BA3EE9 /* SpyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 970E4DF12138EC8700BA3EE9 /* Build configuration list for PBXNativeTarget "SpyAppTests" */;
+			buildPhases = (
+				970E4DE12138EC8700BA3EE9 /* Sources */,
+				970E4DE22138EC8700BA3EE9 /* Frameworks */,
+				970E4DE32138EC8700BA3EE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				970E4DE72138EC8700BA3EE9 /* PBXTargetDependency */,
+			);
+			name = SpyAppTests;
+			productName = SpyAppTests;
+			productReference = 970E4DE52138EC8700BA3EE9 /* SpyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		970E4DC92138EC8600BA3EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Axel Ancona Esselmann";
+				TargetAttributes = {
+					970E4DD02138EC8600BA3EE9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					970E4DE42138EC8700BA3EE9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 970E4DD02138EC8600BA3EE9;
+					};
+				};
+			};
+			buildConfigurationList = 970E4DCC2138EC8600BA3EE9 /* Build configuration list for PBXProject "SpyApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 970E4DC82138EC8600BA3EE9;
+			productRefGroup = 970E4DD22138EC8600BA3EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				970E4DD02138EC8600BA3EE9 /* SpyApp */,
+				970E4DE42138EC8700BA3EE9 /* SpyAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		970E4DCF2138EC8600BA3EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970E4DDF2138EC8700BA3EE9 /* LaunchScreen.storyboard in Resources */,
+				970E4DDC2138EC8700BA3EE9 /* Assets.xcassets in Resources */,
+				970E4DDA2138EC8600BA3EE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970E4DE32138EC8700BA3EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		970E4DCD2138EC8600BA3EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970E4DF52138FC0B00BA3EE9 /* CeaserCipher.swift in Sources */,
+				970E4DF721392D4800BA3EE9 /* CipherFactory.swift in Sources */,
+				970E4DD72138EC8600BA3EE9 /* SpyAppViewController.swift in Sources */,
+				02060015214B1CE500660FBF /* PAKCipher.swift in Sources */,
+				970E4DD52138EC8600BA3EE9 /* AppDelegate.swift in Sources */,
+				02060011214A11D400660FBF /* AlphanumericCesarCipher.swift in Sources */,
+				02060013214B177600660FBF /* ROT786.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970E4DE12138EC8700BA3EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970E4DEA2138EC8700BA3EE9 /* SpyAppTests.swift in Sources */,
+				02A76DE0215308AA0070AEB4 /* AlphaNumericTest.swift in Sources */,
+				02C8A0C921543C5A00A05D7D /* PAKCipherTest.swift in Sources */,
+				02A76DDE215303560070AEB4 /* CesarCipherTests.swift in Sources */,
+				02A76DE221531A7F0070AEB4 /* ROT786Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		970E4DE72138EC8700BA3EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 970E4DD02138EC8600BA3EE9 /* SpyApp */;
+			targetProxy = 970E4DE62138EC8700BA3EE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		970E4DD82138EC8600BA3EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				970E4DD92138EC8600BA3EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		970E4DDD2138EC8700BA3EE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				970E4DDE2138EC8700BA3EE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		970E4DEC2138EC8700BA3EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		970E4DED2138EC8700BA3EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		970E4DEF2138EC8700BA3EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SpyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anconaesselmann.SpyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		970E4DF02138EC8700BA3EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SpyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anconaesselmann.SpyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		970E4DF22138EC8700BA3EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MN23CD5F;
+				INFOPLIST_FILE = SpyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anconaesselmann.SpyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyApp.app/SpyApp";
+			};
+			name = Debug;
+		};
+		970E4DF32138EC8700BA3EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7MN23CD5F;
+				INFOPLIST_FILE = SpyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anconaesselmann.SpyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyApp.app/SpyApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		970E4DCC2138EC8600BA3EE9 /* Build configuration list for PBXProject "SpyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970E4DEC2138EC8700BA3EE9 /* Debug */,
+				970E4DED2138EC8700BA3EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		970E4DEE2138EC8700BA3EE9 /* Build configuration list for PBXNativeTarget "SpyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970E4DEF2138EC8700BA3EE9 /* Debug */,
+				970E4DF02138EC8700BA3EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		970E4DF12138EC8700BA3EE9 /* Build configuration list for PBXNativeTarget "SpyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970E4DF22138EC8700BA3EE9 /* Debug */,
+				970E4DF32138EC8700BA3EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 970E4DC92138EC8600BA3EE9 /* Project object */;
+}

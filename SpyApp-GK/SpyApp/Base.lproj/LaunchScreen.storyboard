@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SpyApp" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OjQ-Ev-eeB">
+                                <rect key="frame" x="117" y="120" width="141" height="49"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="41"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="icons8-spy-48" translatesAutoresizingMaskIntoConstraints="NO" id="JRu-sy-F3A">
+                                <rect key="frame" x="141" y="219" width="117" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="1yj-Ed-Bk7"/>
+                                    <constraint firstAttribute="height" constant="89" id="5Nr-az-jaj"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="66" id="ajk-la-Ujf"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="ril-fR-xUX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29742478417436446" green="0.74588280916213989" blue="0.64694638548142869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JRu-sy-F3A" secondAttribute="trailing" constant="141" id="AGt-ik-BS1"/>
+                            <constraint firstItem="OjQ-Ev-eeB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="EmF-32-XOO"/>
+                            <constraint firstItem="OjQ-Ev-eeB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="H6g-41-k9Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OjQ-Ev-eeB" secondAttribute="trailing" constant="117" id="MJL-CG-3Kx"/>
+                            <constraint firstItem="JRu-sy-F3A" firstAttribute="top" secondItem="OjQ-Ev-eeB" secondAttribute="bottom" constant="50" id="hh2-kG-gOR"/>
+                            <constraint firstItem="JRu-sy-F3A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="141" id="rS0-np-5ON"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-spy-48" width="332" height="207"/>
+    </resources>
+</document>
